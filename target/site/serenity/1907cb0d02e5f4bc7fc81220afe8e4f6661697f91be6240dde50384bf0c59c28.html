@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"User registration","type":"feature","href":"1907cb0d02e5f4bc7fc81220afe8e4f6661697f91be6240dde50384bf0c59c28.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2021 13:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2021 17:40</span>
     <br style="clear:left"/>
 </div>
 
@@ -231,23 +231,11 @@
                         <div>
                             <div clas="table">
                                 <div class="row">
-                                    <div class="col-sm-8">
+                                    <div class="col-sm-12">
                                     <span>
                                             <h2><i class="fa fa-book"></i> Feature:  User Registration</h2>
                                         </span>
                                 </div>
-                                    <div class="col-sm-4">
-                                        <span class="feature-tags">
-                                                <p class="tag">
-                                                    <span class="badge tag-badge" style="background:default;">
-                                                        <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
-                                                                                          style="background:default;"
-                                                                                          href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
-                                                        (tag)</a>
-                                                    </span>
-                                                </p>
-                                        </span>
-                                    </div>
                                 </div>
                                 </div>
                             </div>
@@ -280,120 +268,10 @@
                                     <div class="row">
                                         <div class="col-sm-12">
 
+                                            <h3>Requirements Overview</h3>
 
+                                            <div id="tree"></div>
 
-                                            <h3>Scenarios</h3>
-                                            <div id="toc">
-                                                <table class="table" id="toc-table">
-                                                        <tr>
-                                                            <td style="width:95%;" class="toc-title">
-                                                                <a href="#e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" title="View scenario details" ></a>
-
-
-                                                            </td>
-                                                            <td style="width:5%;">
-                                                                <table>
-                                                                    <tr>
-                                                                        <td>
-                                                                            
-                                                                            
-
-                                                                        
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="width:95%;" class="toc-title">
-                                                                <a href="#a5c7897e1e04988cb9d305396e50631ba719aaa758cad097f2c8aedaba1ed1b7" title="View scenario details" >Successful registration</a>
-                                                                     (1 example)
-
-                                                            </td>
-                                                            <td style="width:5%;">
-                                                                <table>
-                                                                    <tr>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="78287e1da050960bd775dce56f524f0d84d977ed8d5b45843cb8b8362e3c91a7.html"
-                                                                               title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                                            </a>
-
-                                                                        
-                                                                        </td>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="78287e1da050960bd775dce56f524f0d84d977ed8d5b45843cb8b8362e3c91a7.html"
-                                                                               title="View test results">
-                                                                                <i class="fas fa-search-plus"></i>
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                </table>
-
-                                            </div>
-
-                                            <h3>Scenario details</h3>
-
-                                                <div class="scenario-docs card" id="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855">
-                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="" title="View test results">Background</a>
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <i class="fas fa-pause"
-                                                                       title="No test has been implemented yet"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>Given the name actor &quot;New User&quot;</p>
-                                                            <p>Then the browser opens</p>
-                                                            <p>Given a username &quot;candidatex&quot; and a password &quot;qa-is-cool&quot; I want to enter the portal of the BBlog page</p>
-                                                        <div class="examples">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="scenario-docs card" id="a5c7897e1e04988cb9d305396e50631ba719aaa758cad097f2c8aedaba1ed1b7">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="78287e1da050960bd775dce56f524f0d84d977ed8d5b45843cb8b8362e3c91a7.html" title="View test results">Successful registration</a>
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>When I go to the Sign in option</p>
-                                                            <p>Then I verify the if i can to see the label &quot;{mainLabel}&quot;</p>
-                                                        <div class="examples">
-                                                            <p><p>Examples:</p>
-<blockquote>
-</blockquote>
-<div class='example-table-in-scenario'><table>
-<thead>
-<tr><th>mainLabel</th><th>password</th><th>status</th><th></th></tr>
-</thead>
-<tbody>
-<tr><td>Sign in</td><td>5</td><td>success</td><td><a href='78287e1da050960bd775dce56f524f0d84d977ed8d5b45843cb8b8362e3c91a7.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
-</tbody>
-</table></div>
-</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -530,11 +408,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>15s</td>
-                                                        <td>15ms</td>
-                                                        <td>14s</td>
-                                                        <td>14s</td>
-                                                        <td>15s</td>
+                                                        <td>19s</td>
+                                                        <td>19ms</td>
+                                                        <td>18s</td>
+                                                        <td>18s</td>
+                                                        <td>19s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -549,6 +427,7 @@
                                             <table class="scenario-result-table table" id="scenario-results">
                                                 <thead>
                                                 <tr>
+                                                    <th>feature</th>
                                                     <th class="test-name-column">Scenario</th>
                                                     <th>Steps</th>
                                                     <th>Start Time</th>
@@ -559,10 +438,13 @@
                                                 <tbody>
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            <a href="78287e1da050960bd775dce56f524f0d84d977ed8d5b45843cb8b8362e3c91a7.html">Successful registration</a>
+                                                            <a href="1907cb0d02e5f4bc7fc81220afe8e4f6661697f91be6240dde50384bf0c59c28.html">User registration</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="7df51623fd8f1b0e470cdadea747b889afffb82d92758de78eda4f8eb1ca59ec.html">Registration failed by username</a>
                                                                (1 example)
                                                     </td>
-                                                    <td>2</td>
+                                                    <td>3</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>

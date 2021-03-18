@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User registration","Successful registration","SUCCESS","2021-03-18T13:31:26.487-05:00[America/Bogota]","0.0","15.98"
+"User registration","Registration failed by username","SUCCESS","2021-03-18T17:40:54.365-05:00[America/Bogota]","0.0","19.74"

@@ -1,5 +1,12 @@
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\questions\ValidateAreOnRegistrationPage.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\exceptions\RegistrationPageException.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\questions\register\ValidateUserRegister.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\interactions\GoPageSignUp.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\models\UserRegistrationData.java
 C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\userinterface\MainPage.java
 C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\models\UserAccessAplication.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\userinterface\register\PageSignIn.java
 C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\interactions\LoginToPortal.java
+C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\tasks\RegisterComplete.java
 C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\utils\AccessAttempts.java
 C:\Users\usuario\eclipse-workspace2020\backbasetestautomated\src\main\java\com\sophos\backbasetestautomated\register\questions\ValidateLoginToThePortal.java

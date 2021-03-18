@@ -1,5 +1,12 @@
+com\sophos\backbasetestautomated\register\questions\ValidateAreOnRegistrationPage.class
+com\sophos\backbasetestautomated\register\exceptions\RegistrationPageException.class
+com\sophos\backbasetestautomated\register\interactions\LoginToPortal.class
+com\sophos\backbasetestautomated\register\tasks\RegisterComplete.class
 com\sophos\backbasetestautomated\register\questions\ValidateLoginToThePortal.class
 com\sophos\backbasetestautomated\register\utils\AccessAttempts.class
-com\sophos\backbasetestautomated\register\interactions\LoginToPortal.class
+com\sophos\backbasetestautomated\register\models\UserRegistrationData.class
+com\sophos\backbasetestautomated\register\interactions\GoPageSignUp.class
 com\sophos\backbasetestautomated\register\models\UserAccessAplication.class
+com\sophos\backbasetestautomated\register\questions\register\ValidateUserRegister.class
 com\sophos\backbasetestautomated\register\userinterface\MainPage.class
+com\sophos\backbasetestautomated\register\userinterface\register\PageSignIn.class
