@@ -1,0 +1,2 @@
+com\sophos\backbasetestautomated\runners\RegisterRunner.class
+com\sophos\backbasetestautomated\stepdefinitions\StepsLoginAndRegister.class

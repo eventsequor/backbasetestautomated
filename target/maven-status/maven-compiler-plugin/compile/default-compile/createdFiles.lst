@@ -1,0 +1,5 @@
+com\sophos\backbasetestautomated\App.class
+com\sophos\backbasetestautomated\register\questions\ValidateLoginToThePortal.class
+com\sophos\backbasetestautomated\register\utils\AccessAttempts.class
+com\sophos\backbasetestautomated\register\tasks\OpenMainPage.class
+com\sophos\backbasetestautomated\register\userinterface\MainPage.class
