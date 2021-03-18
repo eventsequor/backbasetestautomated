@@ -1,5 +1,6 @@
 package com.sophos.backbasetestautomated.runners;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import io.cucumber.junit.CucumberOptions;
@@ -11,5 +12,7 @@ glue = "com.sophos.backbasetestautomated.stepdefinitions",
 monochrome = true,
 plugin = {"pretty"})
 public class RegisterRunner {
+	
+	
 
 }

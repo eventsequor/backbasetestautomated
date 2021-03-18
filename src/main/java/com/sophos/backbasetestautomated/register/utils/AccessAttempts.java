@@ -5,6 +5,10 @@ public class AccessAttempts {
 	static {
 		entry = false;
 	}
+	
+	private AccessAttempts() {
+		
+	}
 
 	/**
 	 * This method return if the user try sign in of the portal BBlog
@@ -21,7 +25,7 @@ public class AccessAttempts {
 	 * BBlog web portal
 	 */
 	public static void setEntry() {
-		AccessAttempts.entry = true;
+		entry = true;
 	}
 
 }

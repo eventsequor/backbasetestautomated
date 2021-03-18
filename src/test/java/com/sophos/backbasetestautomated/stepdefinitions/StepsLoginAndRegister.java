@@ -11,7 +11,8 @@ import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-import com.sophos.backbasetestautomated.register.tasks.OpenMainPage;
+import com.sophos.backbasetestautomated.register.interactions.LoginToPortal;
+import com.sophos.backbasetestautomated.register.models.UserAccessAplication;
 import com.sophos.backbasetestautomated.register.userinterface.MainPage;
 
 public class StepsLoginAndRegister {
@@ -32,8 +33,9 @@ public class StepsLoginAndRegister {
 	}
 
 	@Given("a username {string} and a password {string} I want to enter the portal of the BBlog page")
-	public void a_username_and_a_password_i_want_to_enter_the_portal_of_the_b_blog_page(String user, String keyUser) {
-		theActorInTheSpotlight().attemptsTo(OpenMainPage.signInThePortal(user, keyUser));
+	public void a_username_and_a_password_i_want_to_enter_the_portal_of_the_b_blog_page(String user, String password) {
+		UserAccessAplication userAplication = new UserAccessAplication(user, password);
+		theActorInTheSpotlight().attemptsTo(LoginToPortal.signIn(userAplication));
 	}
 
 	@When("I go to the Sign in option")
