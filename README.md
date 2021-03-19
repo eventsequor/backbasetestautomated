@@ -12,13 +12,24 @@ How to run the project
 --------------
 To run all test cases in the project run the command
 
-mvn clean verify
+- mvn clean verify
 
+Table scennarios
+--------------
+
+| Alineado-izquierda | Centrado | Alineado-derecha |
+| :-------- | :-------: | --------: |
+| Manzanas | rojo | 5000 |
+| Plátanos | amarillo | 75 |
 
 Non-functional system requirements
 --------------
+- Maven 3.6.3
+- Java 1.8
+- Google chrome with version 89.0.4389.90
+- Windows 8 or higher operating system
 
 
 Autor
 ------------
-Eder Leandro Carbonero Baquero
+&copy; Eder Leandro Carbonero Baquero
