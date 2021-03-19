@@ -3,7 +3,6 @@ Feature: User registration
   I want an automated test that allows me to determine the correct functioning of the registry view
 
   Background: 
-   Then I validate if a label appears with the message "<alertMessage>"
     Given the name actor "New User"
     Then the browser opens
     Given a username "candidatex" and a password "qa-is-cool" I want to enter the portal of the BBlog page
@@ -18,7 +17,7 @@ Feature: User registration
     #To run this test correctly it is necessary to update the data with users that do not exist
     Examples: 
       | mainLabel | userName    | email                      | password    |
-      | Sign in   | testsophos2 | testsophos2@testsophos.com | testsophos1 |
+      | Sign in   | testsophos4 | testsophos4@testsophos.com | testsophos4 |
 
   @Register_Failed_user
   Scenario Outline: Registration failed by username
@@ -28,5 +27,7 @@ Feature: User registration
     Then I validate if a label appears with the message "<alertMessage>"
 
     Examples: 
-      | mainLabel | userName | email                      | password    | alertMessage             |
-      | Sign in   |          | testsophos2@testsophos.com | testsophos1 | username can't be blank2 |
+      | mainLabel | userName    | email                      | password    | alertMessage            |
+      | Sign in   |             | testsophos2@testsophos.com | testsophos1 | username can't be blank |
+      | Sign in   | testsophos2 |                            | testsophos1 | email can't be blank    |
+      | Sign in   | userHsdssfa | userHsdssfa                | userHsdssfa | email is invalid        |

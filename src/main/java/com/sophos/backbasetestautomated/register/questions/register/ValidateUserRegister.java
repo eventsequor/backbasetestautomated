@@ -6,7 +6,6 @@ import com.sophos.backbasetestautomated.register.userinterface.MainPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import net.serenitybdd.screenplay.questions.Visibility;
 
 public class ValidateUserRegister implements Question<String> {
 	private UserRegistrationData userData;
@@ -18,6 +17,14 @@ public class ValidateUserRegister implements Question<String> {
 	@Override
 	public String answeredBy(Actor actor) {
 		return Text.of(MainPage.LINK_REF_USER).viewedBy(actor).asString();
+	}
+
+	public UserRegistrationData getUserData() {
+		return userData;
+	}
+
+	public void setUserData(UserRegistrationData userData) {
+		this.userData = userData;
 	}
 
 	public static ValidateUserRegister getTextUser(UserRegistrationData userData) {

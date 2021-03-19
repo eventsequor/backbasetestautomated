@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="User registration" skipped="2" tests="2" time="0.61" timestamp="2021-03-18 05:52:25"><testcase name="Successful registration"><skipped/></testcase><testcase name="Registration failed by username"><skipped/></testcase></testsuite>
