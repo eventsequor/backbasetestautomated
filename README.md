@@ -12,9 +12,13 @@ How to run the project
 --------------
 To run all test cases in the project run the command
 
-- mvn clean verify
+|Name scenario or description |Tag|commant|
+|:-------:|:-------:|:-------:|
+|Run all test||mvn clean verify|
+|Successful registration|@Register_Succesful|mvn clean verify -Dtags="@Register_Succesful"|
 
-Table scennarios
+
+Table of automated scenarios
 --------------
 
 | Alineado-izquierda | Centrado | Alineado-derecha |

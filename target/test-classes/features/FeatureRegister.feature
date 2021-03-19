@@ -17,7 +17,7 @@ Feature: User registration
     #To run this test correctly it is necessary to update the data with users that do not exist
     Examples: 
       | mainLabel | userName    | email                      | password    |
-      | Sign in   | testsophos5 | testsophos5@testsophos.com | testsophos5 |
+      | Sign in   | testsophos6 | testsophos6@testsophos.com | testsophos6 |
 
   @Register_Failed_user
   Scenario Outline: Registration failed by username
