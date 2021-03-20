@@ -3,7 +3,7 @@ package com.sophos.backbasetestautomated.register.userinterface.register;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class PageSignIn extends PageObject {
+public class PageSignUpRegister extends PageObject {
 	public static final Target LABEL_SIGN_IN = Target.the("label Sign In")
 			.locatedBy("//h1[contains(text(),'Sign in')]");
 

@@ -1,6 +1,6 @@
 package com.sophos.backbasetestautomated.register.questions.register;
 
-import com.sophos.backbasetestautomated.register.userinterface.register.PageSignIn;
+import com.sophos.backbasetestautomated.register.userinterface.register.PageSignUpRegister;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
@@ -10,7 +10,7 @@ public class ValidateErrorMessageInRegistry implements Question<String> {
 
 	@Override
 	public String answeredBy(Actor actor) {
-		return Text.of(PageSignIn.LABEL_MESSAGE_ERROR).viewedBy(actor).asString();
+		return Text.of(PageSignUpRegister.LABEL_MESSAGE_ERROR).viewedBy(actor).asString();
 	}
 
 	public static ValidateErrorMessageInRegistry getTextUser() {

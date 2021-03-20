@@ -1,7 +1,7 @@
 package com.sophos.backbasetestautomated.register.tasks;
 
 import com.sophos.backbasetestautomated.register.models.UserRegistrationData;
-import com.sophos.backbasetestautomated.register.userinterface.register.PageSignIn;
+import com.sophos.backbasetestautomated.register.userinterface.register.PageSignUpRegister;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -19,16 +19,15 @@ public class RegisterComplete implements Task {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		if(Boolean.FALSE.equals(userData.getUserName().isEmpty())) {
-			actor.attemptsTo(Enter.theValue(userData.getUserName()).into(PageSignIn.TEXT_BOX_USERNAME));
+			actor.attemptsTo(Enter.theValue(userData.getUserName()).into(PageSignUpRegister.TEXT_BOX_USERNAME));
 		}
 		if(Boolean.FALSE.equals(userData.getEmail().isEmpty())) {
-			actor.attemptsTo(Enter.theValue(userData.getEmail()).into(PageSignIn.TEXT_BOX_EMAIL));
+			actor.attemptsTo(Enter.theValue(userData.getEmail()).into(PageSignUpRegister.TEXT_BOX_EMAIL));
 		}
 		if(Boolean.FALSE.equals(userData.getPassword().isEmpty())) {
-			actor.attemptsTo(Enter.theValue(userData.getPassword()).into(PageSignIn.TEXT_BOX_PASSWORD));
+			actor.attemptsTo(Enter.theValue(userData.getPassword()).into(PageSignUpRegister.TEXT_BOX_PASSWORD));
 		}
-		actor.attemptsTo(Click.on(PageSignIn.BUTTON_SIGN_UP));
-		
+		actor.attemptsTo(Click.on(PageSignUpRegister.BUTTON_SIGN_UP));
 		
 	}
 	

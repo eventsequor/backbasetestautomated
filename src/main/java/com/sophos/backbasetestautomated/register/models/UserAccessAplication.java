@@ -7,6 +7,7 @@ public class UserAccessAplication {
 	public UserAccessAplication() {
 		this("default", "default");
 	}
+	
 
 	public UserAccessAplication(final String user, final String password) {
 		this.user = user;

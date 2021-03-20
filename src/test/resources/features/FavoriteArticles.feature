@@ -1,45 +1,22 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
-#Given: Some precondition step
-#When: Some key actions
-#Then: To observe outcomes or validation
-#And,But: To enumerate more Given,When,Then steps
-#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
-#Examples: Container for s table
-#Background: List of steps run before each of the scenarios
-#""" (Doc Strings)
-#| (Data Tables)
-#@ (Tags/Labels):To group Scenarios
-#<> (placeholder)
-#""
-## (Comments)
-#Sample Feature Definition Template
-@tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+@SmokeTest @FavoriteArticles_smoke
+Feature: Favorite Articles
+  I want a series of cases that allows me to validate the functioning of the favorite articles functionality
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-      | header |
-      | value  |
-      | value2 |
-    And check more outcomes
+  Background: 
+    Given the name actor "New User"
+    Then the browser opens
+    Given a username "candidatex" and a password "qa-is-cool" I want to enter the portal of the BBlog page
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+  @ListOfFavoriteArticles
+  Scenario Outline: Validate list of favorite articles
+    When you enter the application using email "<userEmail>" and password "<password>"
+    Then I validate if the user "<userName>" is visible in the header options
+    When I go to the favorite articles page
+    Then valid the following list of items list
+      | Romans 8:38-39                    |
+      | testTitletestTitleUpdate          |
+      | testTitle                         |
 
     Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+      | userName    | userEmail                  | password    |
+      | testsophos5 | testsophos5@testsophos.com | testsophos5 |

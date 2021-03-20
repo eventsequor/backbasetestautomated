@@ -1,3 +1,4 @@
+@SmokeTest
 @Regiter_smoke
 Feature: User registration
   I want an automated test that allows me to determine the correct functioning of the registry view
@@ -17,7 +18,7 @@ Feature: User registration
     #To run this test correctly it is necessary to update the data with users that do not exist
     Examples: 
       | mainLabel | userName    | email                      | password    |
-      | Sign in   | testsophos6 | testsophos6@testsophos.com | testsophos6 |
+      | Sign in   | testsophos9 | testsophos9@testsophos.com | testsophos9 |
 
   @Register_Failed_user
   Scenario Outline: Registration failed by username

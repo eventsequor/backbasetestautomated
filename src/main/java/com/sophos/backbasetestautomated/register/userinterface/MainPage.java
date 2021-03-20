@@ -14,5 +14,7 @@ public class MainPage extends PageObject {
 
 	public static final Target LINK_REF_USER = Target.the("name user")
 			.locatedBy("(//a[@class = 'nav-link'])[position()=1]");
+	
+	public static final Target BUTTON_SIGN_IN = Target.the("button sign in").locatedBy("//a[@class='nav-link' and contains(text(),'Sign in')]");
 
 }

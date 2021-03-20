@@ -7,7 +7,6 @@ This is a project that contains the tests proposed by the Backbase company, this
 
 
 
-
 How to run the project
 --------------
 To run all test cases in the project run the command
@@ -16,15 +15,13 @@ To run all test cases in the project run the command
 |:-------:|:-------:|:-------:|
 |Run all test||mvn clean verify|
 |Successful registration|@Register_Succesful|mvn clean verify -Dtags="@Register_Succesful"|
+|Registration failed by username|@Register_Failed_user|mvn clean verify -Dtags="@Register_Failed_user"|
 
+Test scenarios
+---------------------
 
-Table of automated scenarios
---------------
-
-| Alineado-izquierda | Centrado | Alineado-derecha |
-| :-------- | :-------: | --------: |
-| Manzanas | rojo | 5000 |
-| Plátanos | amarillo | 75 |
+Reports of the tests executed
+-----------------------
 
 Non-functional system requirements
 --------------
