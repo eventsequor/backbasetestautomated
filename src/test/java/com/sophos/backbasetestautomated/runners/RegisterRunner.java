@@ -10,8 +10,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 glue = "com.sophos.backbasetestautomated.stepdefinitions",
 monochrome = true,
 plugin = {"pretty"},
-tags = "@Register_Succesful")
+tags = "@Register_Failed_user")
 public class RegisterRunner {
+	
+	
 	
 	
 

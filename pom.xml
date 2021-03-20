@@ -103,7 +103,8 @@
 					</systemPropertyVariables>
 					<parallel>classes</parallel>
 					<parallel>methods</parallel>
-					<useUnlimitedThreads>true</useUnlimitedThreads>
+					<threadCount>1</threadCount>
+					<useUnlimitedThreads>false</useUnlimitedThreads>
 				</configuration>
 				<executions>
 					<execution>

@@ -1,3 +1,4 @@
+@SmokeTest
 @SmokeTest @FavoriteArticles_smoke
 Feature: Favorite Articles
   I want a series of cases that allows me to validate the functioning of the favorite articles functionality

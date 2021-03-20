@@ -23,6 +23,11 @@ Test scenarios
 Reports of the tests executed
 -----------------------
 
+Project structure
+-----------------------
+![This is an image of the basic structure of the project](imgs_readme/treeProject.PNG "structure") 
+treeProject.PNG
+
 Non-functional system requirements
 --------------
 - Maven 3.6.3
