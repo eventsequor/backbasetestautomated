@@ -4,7 +4,13 @@ Content
 -------
 
 1.  Summary project
-2.  second_item
+2.  How to run the project
+3.  Test scenarios
+4.  Reports of the tests executed
+5.  Project structure
+6.  Non-automated functionalities some test scripts
+7.  Non-functional system requirements
+8.  Autor
 
 
 
@@ -18,6 +24,7 @@ How to run the project
 --------------
 To run all test cases in the project run the command
 
+
 |Name scenario or description |Tag|commant|
 |:-------:|:-------:|:-------:|
 |Run all test||mvn clean verify|
@@ -27,6 +34,14 @@ To run all test cases in the project run the command
 
 Test scenarios
 -----------------------
+|Functionality name|Test case name|Description|Expected result|
+|:----------------:|:-------------:|:-----------:|:-------------:|
+|Favorite articles|Validate list of favorite articles|Given a user with a list of articles that follows, it is required to validate that these articles appear in the window of followed articles|All tracked articles appear in the view created for this purpose.|
+|Favorite articles|Follow an article|Validate that it is possible to follow an article and that it appears in the list of followed articles|It is expected that after following an article it is possible to see the name of the article in the list of followed articles|
+|Favorite articles|Validate stop following an article|Validate that it is possible to stop following an article and it stops appearing in the list of followed articles|Once an article is stopped following, it no longer appears in the list of followed articles|
+|Favorite articles|Validate description of articles with the same title|Validate that an article with a name equal to another does not have the same description|Two articles must be created with the same name and different description, subsequently, one of the two must be followed, validating that the description of the article that follows corresponds to the one initially selected.|
+
+
 
 Reports of the tests executed
 -----------------------

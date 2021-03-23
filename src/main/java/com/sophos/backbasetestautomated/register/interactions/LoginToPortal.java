@@ -33,6 +33,7 @@ public class LoginToPortal implements Interaction {
 					+ actualUrl.split(STANDAR_PROTOCOL)[1];
 		}
 		BrowseTheWeb.as(actor).getDriver().navigate().to(newUrl);
+		BrowseTheWeb.as(actor).getDriver().navigate().to(actualUrl);
 		actor.attemptsTo(Click.on(MainPage.TITLE_HEADER));
 
 	}
